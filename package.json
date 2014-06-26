@@ -4,7 +4,7 @@
   "description": "A maybe-monad like function",
   "main": "maybe.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node -e \"require('bulk-require')('test', '**/*-test.js')\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/christav/maybeish/issues"
   },
-  "homepage": "https://github.com/christav/maybeish"
+  "homepage": "https://github.com/christav/maybeish",
+  "devDependencies": {
+    "bulk-require": "^0.2.1",
+    "chai": "^1.9.1",
+    "joe": "^1.5.0",
+    "joe-reporter-console": "^1.2.1"
+  }
 }
