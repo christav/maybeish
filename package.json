@@ -1,0 +1,22 @@
+{
+  "name": "maybeish",
+  "version": "1.0.0",
+  "description": "A maybe-monad like function",
+  "main": "maybe.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christav/maybeish.git"
+  },
+  "keywords": [
+    "maybe"
+  ],
+  "author": "Chris Tavares <cct@tavaresstudios.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/christav/maybeish/issues"
+  },
+  "homepage": "https://github.com/christav/maybeish"
+}
